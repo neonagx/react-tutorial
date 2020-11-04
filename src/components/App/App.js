@@ -60,8 +60,8 @@ function App() {
           diet={animal.diet}
           key={animal.name}
           name={animal.name}
-          // scientificName={animal.scientificName}
           size={animal.size}
+          scientificName={animal.scientificName}
           // showAdditional={showAdditional}
           />
         ))}
